@@ -1,23 +1,37 @@
 import unidecode 
 
 #Exercise 1--------------------------------
-def capName():
+def cap_name():
     flag = 0
     while(flag == 0):
         ans = input("What is your name: ")
 
         if ans.isalpha():
-            print(ans.upper())
+            print(ans.upper(),"\n")
             flag = 1
         else:
             print("Insert a valid name.")
 
-# capName()
+# cap_name()
 
 #Exercise 2---------------------------------
 
-def printEven(list):
+def print_even_numbers():
+    list=[]
     even = []
+    flag = 0
+    while(True):
+        number = input("Enter a number or [Enter] to exit: ")
+        if number.isnumeric():
+            list.append(int(number))
+        elif not number and len(list)>0:
+            break
+        elif not number and len(list)==0:
+            print("Input is empty.\n")
+            return
+        else:
+            print("Introduce a valid number.")
+
     if (all([isinstance(item, int) for item in list])):
         for item in list:
             if item % 2 == 0:
@@ -25,17 +39,18 @@ def printEven(list):
             else:
                 continue
         if len(even) == 0:
-            print("The list dont have even numbers.")
+            print("The list dont have even numbers.\n")
         else:
-            print("Even numbers: ",even)
+            print("Even numbers: ",even,"\n")
     else:
-        print("Not valid input.")
+        print("Not valid input.\n")
     
 
-# printEven([323,4,55,2,4,1,4,5,6,6,76,7,6,4,53,4])
+# print_even_numbers()
 
 #Exercise 3---------------------------------
-def printLinesRev(fileName):
+def print_lines_reverse(fileName):
+    print(fileName)
     file = open(fileName, "r")
     lines = file.readlines()
     lines.reverse()
@@ -43,12 +58,11 @@ def printLinesRev(fileName):
         line1 = line.replace("\n","") 
         print(line1)
 
-
-# printLinesRev("notes.txt")
+# print_lines_reverse("exercise3.txt")
 
 #Exercise 4---------------------------------
 
-def moreOccur(fileName):
+def more_occurrences(fileName):
     formatedLines = []
     file = open(fileName, "r")
     lines = file.readlines()
@@ -66,55 +80,62 @@ def moreOccur(fileName):
                 wordsDic[word]=wordsDic[word]+1
 
     finalWords = sorted(wordsDic.items(), key=lambda x:x[1], reverse=True)
-    for item in finalWords:
+    for item in finalWords[:10]:
         print("\"", item[0],"\": ",item[1])
 
-# moreOccur("notes.txt")
+# more_occurrences("exercise4.txt")
 
 #Exercise 5---------------------------------
 
-def cleanText(text):
+def clean_text():
+    text = input("Text: ")
     textLow = text.lower()
     textLow = unidecode.unidecode(textLow)
     print(textLow)
-    punctuation = [",",".",";"]
+    punctuation = [",",".",";","?","!","-",":",")","\""]
     formated = ""
     for i in range(len(textLow)):
         if textLow[i] in punctuation:
             if i == len(textLow)-1:
                 formated = formated + textLow[i]
             else:
-                if textLow[i+1] != " ":
-                    formated = formated + textLow[i]+ " "
+                if textLow[i-1] != " " and textLow[i+1] != " ":
+                    formated = formated + " " + textLow[i]+ " "
+                elif textLow[i-1] != " " and textLow[i+1] == " ":
+                    formated = formated + " " + textLow[i]
                 else:
-                    formated = formated + textLow[i]
+                    formated = formated + textLow[i] + " "
         else:
             formated = formated + textLow[i]
 
     print("formated: ",formated)
 
-# cleanText("ola o meu nome É José Sántos e eu sou estudante do mestrado em engenharia BiomédiCa.Atualmente sou trabalhador e estudante,e deslocado.")
+# clean_text()
 
 #FUNCTION EXERCISES---------------------------------------------------------
 #Exercise 1---------------------------------
 
-def reverseStr(word):
+def reverse_str():
+    word = input("Word: ")
     word = word[::-1]
     print(word)
 
-# reverseStr("jose")
+# reverse_str()
 
 #Exercise 2---------------------------------
 
-def letterCounter(word, letter):
+def letter_counter():
+    word = input("Word: ")
+    letter = input("Letter: ")
     counter = word.count(letter.upper()) + word.count(letter.lower())
     print("The word \"%s\" have %s letters \"%s\"." % (word, counter, letter))
 
-# letterCounter("esternocleidomastoideo", "o")
+# letter_counter()
 
 #Exercise 3---------------------------------
 
-def vowelsCounter(word):
+def vowels_counter():
+    word = input("Word: ")
     vowels="aeiou"
     counter = 0
     for i in word:
@@ -122,11 +143,13 @@ def vowelsCounter(word):
             counter +=1
     print("The word \"%s\" have %s vowels." %(word,counter))
 
-# vowelsCounter("esternocleidomastoideo")
+# vowels_counter()
 
 #Exercise 4/5---------------------------------
 
-def caseChanger(word, case):
+def case_changer():
+    word = input("Word: ")
+    case = input("U or L: ")
     if case.upper() == "U":
         resultWord = word.upper()
     elif case.upper() == "L":
@@ -135,6 +158,6 @@ def caseChanger(word, case):
         print("Error.")
     print("Result: ",resultWord)
 
-# caseChanger("OAkslLEasEE", "U")
+# case_changer()
 
 
