@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="page-title">Something</h1>
+      <ul class="links">
+        <li><a href="engineering">Engineering</a></li>
+        <li><a href="elephant">Elephant</a></li>
+        <li><a href="horse">Horse</a></li>
+      </ul>
+    </nav>
+    <div class="board">
+      <div class="container" id="engineering">
+        <h2 id="eng-title">Engineering</h2>
+        <div class="picture eng-pic" id="eng-pic">
+          <span class="tooltiptext">Click to zoom-in.</span>
+        </div>
+        <p class="description" id="eng-desc">
+          <b>Engineering</b> involves the application of the principles of
+          science and mathematics to solve real world problems and to innovate
+          new products and processes across a wide range of industries and
+          applications.
+        </p>
+        <button class="button" id="eng-btn" onclick="showEng()">Less</button>
+      </div>
+      <div class="container" id="elephant">
+        <h2 id="elef-title">Elephant</h2>
+        <div class="picture elef-pic" id="elef-pic">
+          <span class="tooltiptext">Click to zoom-in.</span>
+        </div>
+        <p class="description" id="elef-desc">
+          <b>Elephants</b> are the largest existing land animals. Three living
+          species are currently recognised: the African bush elephant, the
+          African forest elephant, and the Asian elephant. They are the only
+          surviving members of the family Elephantidae and the order
+          Proboscidea.
+        </p>
+        <button class="button" id="elef-btn" onclick="showElef()">Less</button>
+      </div>
+      <div class="container" id="horse">
+        <h2 id="egua-title">Mare</h2>
+        <div class="picture egua-pic" id="egua-pic">
+          <span class="tooltiptext">Click to zoom-in.</span>
+        </div>
+        <p class="description" id="egua-desc">
+          A <b>mare</b> is an adult female horse or other equine.[1] In most
+          cases, a mare is a female horse over the age of three, and a filly is
+          a female horse three and younger. In Thoroughbred horse racing, a mare
+          is defined as a female horse more than four years old.
+        </p>
+        <button class="button" id="egua-btn" onclick="showHorse()">Less</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
