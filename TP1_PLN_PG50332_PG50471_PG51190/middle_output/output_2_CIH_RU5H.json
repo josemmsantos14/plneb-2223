@@ -1,0 +1,710 @@
+{
+    "especialista": {
+        "en": "specialist",
+        "es": "especialista"
+    },
+    "enfermeira": {
+        "en": "nurse",
+        "es": "enfermero/a"
+    },
+    "consultar": {
+        "en": "consult",
+        "es": "consultar"
+    },
+    "consulta": {
+        "en": "consultation",
+        "es": "consulta"
+    },
+    "hospital": {
+        "en": "hospital",
+        "es": "hospital"
+    },
+    "paciente": {
+        "en": "patient",
+        "es": "paciente"
+    },
+    "tronco cerebral": {
+        "en": "brain stem",
+        "es": "tronco cerebral"
+    },
+    "nervo óptico": {
+        "en": "optic nerve",
+        "es": "nervio óptico"
+    },
+    "glândula pituitária ou hipófise": {
+        "en": "pituitary gland",
+        "es": "glándula pituitaria"
+    },
+    "retina": {
+        "en": "retina",
+        "es": "retina"
+    },
+    "glândulas supra-renais": {
+        "en": "adrenal glands",
+        "es": "glándulas adrenales"
+    },
+    "aurícula": {
+        "en": "atrium",
+        "es": "atrio"
+    },
+    "miocárdio": {
+        "en": "myocardium",
+        "es": "miocardio"
+    },
+    "uretra": {
+        "en": "urethra",
+        "es": "uretra"
+    },
+    "trompa de falópio": {
+        "en": "fallopian tube",
+        "es": "trompas de falopio"
+    },
+    "abcesso": {
+        "en": "abscess",
+        "es": "absceso, flemón"
+    },
+    "reacção alérgica": {
+        "en": "allergic reaction",
+        "es": "reacción alérgica"
+    },
+    "cegueira": {
+        "en": "blindness",
+        "es": "ceguera"
+    },
+    "tosse": {
+        "en": "cough",
+        "es": "tos"
+    },
+    "diarreia": {
+        "en": "diarrhea",
+        "es": "diarrea"
+    },
+    "dispneia": {
+        "en": "dyspnea",
+        "es": "dispnea"
+    },
+    "febre": {
+        "en": "fever",
+        "es": "fiebre"
+    },
+    "fractura": {
+        "en": "fracture",
+        "es": "fractura"
+    },
+    "infecção": {
+        "en": "infection",
+        "es": "infección"
+    },
+    "lesão": {
+        "en": "lesion",
+        "es": "lesión"
+    },
+    "mosquito": {
+        "en": "mosquito",
+        "es": "mosquito"
+    },
+    "náusea": {
+        "en": "nausea",
+        "es": "náusea"
+    },
+    "necrose": {
+        "en": "necrosis",
+        "es": "necrosis"
+    },
+    "paralisia": {
+        "en": "paralysis",
+        "es": "parálisis"
+    },
+    "estirpe": {
+        "en": "strain",
+        "es": "tensión, presión; torcedura, esguince"
+    },
+    "transmissão": {
+        "en": "transmission",
+        "es": "transmisión"
+    },
+    "biópsia": {
+        "en": "biopsy",
+        "es": "biopsia"
+    },
+    "antigénio": {
+        "en": "antigen",
+        "es": "antígeno"
+    },
+    "banco de sangue": {
+        "en": "blood bank",
+        "es": "banco de sangre"
+    },
+    "exame de sangue": {
+        "en": "blood test",
+        "es": "examen sanguíneo, de sangre"
+    },
+    "medula óssea": {
+        "en": "bone marrow",
+        "es": "médula ósea"
+    },
+    "transfusão": {
+        "en": "transfusion",
+        "es": "transfusión"
+    },
+    "broncoscopia": {
+        "en": "bronchoscopy",
+        "es": "broncoscopia"
+    },
+    "exame completo": {
+        "en": "check-up",
+        "es": "verificar, chequear"
+    },
+    "circuncisão": {
+        "en": "circumcision",
+        "es": "circuncisión"
+    },
+    "curetagem": {
+        "en": "curettage",
+        "es": "raspado, curetaje"
+    },
+    "endoscopia": {
+        "en": "endoscopy",
+        "es": "endoscopia"
+    },
+    "microscopia de fluorescência": {
+        "en": "fluorescence microscopy",
+        "es": "microscopía fluorescente"
+    },
+    "mamografia": {
+        "en": "mammography",
+        "es": "mamografía"
+    },
+    "teste serológico": {
+        "en": "serological test",
+        "es": "prueba serológica"
+    },
+    "esterilização": {
+        "en": "sterilization",
+        "es": "esterilización"
+    },
+    "cateter": {
+        "en": "catheter",
+        "es": "catéter"
+    },
+    "estetoscópio": {
+        "en": "stethoscope",
+        "es": "estetoscopio"
+    },
+    "alcoolismo": {
+        "en": "alcoholism",
+        "es": "alcoholismo"
+    },
+    "alergia": {
+        "en": "allergy",
+        "es": "alergia"
+    },
+    "anemia": {
+        "en": "anemia",
+        "es": "anemia"
+    },
+    "aneurisma": {
+        "en": "aneurysm",
+        "es": "aneurisma"
+    },
+    "artrite": {
+        "en": "arthritis",
+        "es": "artritis"
+    },
+    "asma": {
+        "en": "asthma",
+        "es": "asma"
+    },
+    "bronquite": {
+        "en": "bronchitis",
+        "es": "bronquitis"
+    },
+    "cancro": {
+        "en": "cancer",
+        "es": "cáncer"
+    },
+    "quisto": {
+        "en": "cyst",
+        "es": "quiste"
+    },
+    "diabetes": {
+        "en": "diabetes",
+        "es": "diabetes"
+    },
+    "edema": {
+        "en": "edema",
+        "es": "edema"
+    },
+    "epilepsia": {
+        "en": "epilepsy",
+        "es": "epilepsia"
+    },
+    "hepatite": {
+        "en": "hepatitis",
+        "es": "hepatitis"
+    },
+    "hepatite viral": {
+        "en": "viral hepatitis",
+        "es": "hepatitis viral"
+    },
+    "hérnia": {
+        "en": "hernia",
+        "es": "hernia"
+    },
+    "hipotensão": {
+        "en": "hypotension",
+        "es": "hipotensión"
+    },
+    "hipoglicemia": {
+        "en": "hypoglycemia",
+        "es": "hipoglucemia"
+    },
+    "inflamação": {
+        "en": "inflammation",
+        "es": "inflamación"
+    },
+    "lúpus": {
+        "en": "lupus",
+        "es": "lupus"
+    },
+    "microorganismo": {
+        "en": "microorganism",
+        "es": "microorganismo"
+    },
+    "parasita": {
+        "en": "parasite",
+        "es": "parásito"
+    },
+    "pneumonia": {
+        "en": "pneumonia",
+        "es": "neumonía"
+    },
+    "raiva": {
+        "en": "rabies",
+        "es": "rabia"
+    },
+    "retrovírus": {
+        "en": "retrovirus",
+        "es": "retrovirus"
+    },
+    "febre reumática": {
+        "en": "rheumatic fever",
+        "es": "fiebre reumática"
+    },
+    "escarlatina": {
+        "en": "scarlet fever",
+        "es": "fiebre escarlata / escarlatina"
+    },
+    "tétano": {
+        "en": "tetanus",
+        "es": "tétanos"
+    },
+    "trombose": {
+        "en": "thrombosis",
+        "es": "trombosis"
+    },
+    "tuberculose": {
+        "en": "tuberculosis",
+        "es": "tuberculosis"
+    },
+    "tuberculose miliar": {
+        "en": "miliary tuberculosis",
+        "es": "tuberculosis miliar"
+    },
+    "vacina": {
+        "en": "vaccine",
+        "es": "vacuna"
+    },
+    "febre tifóide": {
+        "en": "typhoid fever",
+        "es": "fiebre tfoidea"
+    },
+    "vírus": {
+        "en": "virus",
+        "es": "virus"
+    },
+    "infecção viral": {
+        "en": "viral infection",
+        "es": "infección viral"
+    },
+    "antibiótico": {
+        "en": "antibiotic",
+        "es": "antibiótico"
+    },
+    "anticoagulante": {
+        "en": "anticoagulant",
+        "es": "anticoagulante"
+    },
+    "anti-inflamatório": {
+        "en": "anti-inflammatory",
+        "es": "anti-inflamatorio"
+    },
+    "aspirina": {
+        "en": "aspirin",
+        "es": "aspirina"
+    },
+    "preservativo": {
+        "en": "contraceptive",
+        "es": "anticonceptivo, contraceptivo"
+    },
+    "diurético": {
+        "en": "diuretic",
+        "es": "diurético"
+    },
+    "doseamento": {
+        "en": "dosage",
+        "es": "dosis, dosificación, posología"
+    },
+    "dose": {
+        "en": "dose",
+        "es": "dosis"
+    },
+    "droga": {
+        "en": "drug",
+        "es": "droga, medicamento"
+    },
+    "glicose": {
+        "en": "glucose",
+        "es": "glucosa"
+    },
+    "curar": {
+        "en": "heal",
+        "es": "curar, sanar, cicatrizar, remediar"
+    },
+    "injecção": {
+        "en": "injection",
+        "es": "inyección"
+    },
+    "insulina": {
+        "en": "insulin",
+        "es": "insulina"
+    },
+    "medicação": {
+        "en": "medication",
+        "es": "medicación"
+    },
+    "farmácia": {
+        "en": "pharmacy",
+        "es": "farmacia"
+    },
+    "pílula": {
+        "en": "pill",
+        "es": "píldora, pastilla"
+    },
+    "amostra": {
+        "en": "sample",
+        "es": "muestra, ejemplar"
+    },
+    "esteróide": {
+        "en": "steroid",
+        "es": "esteroide"
+    },
+    "cirurgia": {
+        "en": "surgery",
+        "es": "cirugía"
+    },
+    "terapia": {
+        "en": "therapy",
+        "es": "terapia"
+    },
+    "angina de peito": {
+        "en": "angina pectoris",
+        "es": "angina pectoris, angina de pecho, dolor de pecho"
+    },
+    "aterosclerose": {
+        "en": "atherosclerosis",
+        "es": "aterosclerosis"
+    },
+    "paragem cardíaca": {
+        "en": "cardiac arrest",
+        "es": "paro cardiaco"
+    },
+    "cardiologista": {
+        "en": "cardiologist",
+        "es": "cardiólogo"
+    },
+    "angioplastia coronária": {
+        "en": "coronary angioplasty",
+        "es": "angioplastia coronaria"
+    },
+    "cianose": {
+        "en": "cyanosis",
+        "es": "cianosis (color azulado)"
+    },
+    "ecocardiograma": {
+        "en": "echocardiogram",
+        "es": "ecocardiograma/fía"
+    },
+    "embolia": {
+        "en": "embolism",
+        "es": "embolismo"
+    },
+    "miocardite": {
+        "en": "myocarditis",
+        "es": "miocarditis"
+    },
+    "dermatite ou dermite": {
+        "en": "dermatitis",
+        "es": "dermatitis"
+    },
+    "eczema": {
+        "en": "eczema",
+        "es": "eccema"
+    },
+    "gangrena": {
+        "en": "gangrene",
+        "es": "gangrena"
+    },
+    "escabiose": {
+        "en": "scabies",
+        "es": "sarna"
+    },
+    "acidose": {
+        "en": "acidosis",
+        "es": "acidosis"
+    },
+    "contusão": {
+        "en": "contusion",
+        "es": "contusión"
+    },
+    "hemorragia": {
+        "en": "hemorrhage",
+        "es": "hemorragia"
+    },
+    "toxicidade": {
+        "en": "toxicity",
+        "es": "toxicidad"
+    },
+    "trauma": {
+        "en": "trauma",
+        "es": "trauma"
+    },
+    "hormona": {
+        "en": "hormone",
+        "es": "hormona"
+    },
+    "testosterona": {
+        "en": "testosterone",
+        "es": "testosterona"
+    },
+    "adenopatia": {
+        "en": "adenopathy",
+        "es": "adenopatía"
+    },
+    "otalgia": {
+        "en": "otalgia",
+        "es": "otalgia"
+    },
+    "colesterol": {
+        "en": "cholesterol",
+        "es": "colesterol"
+    },
+    "cirrose": {
+        "en": "cirrhosis",
+        "es": "cirrosis"
+    },
+    "vih (vírus da imunodeficiência humana)": {
+        "en": "hiv (human immunodeficiency virus)",
+        "es": "vih (virus de inmunodeficiencia humana)"
+    },
+    "doença infecciosa": {
+        "en": "infectious disease",
+        "es": "enfermedad infecciosa"
+    },
+    "internista": {
+        "en": "internist",
+        "es": "internista"
+    },
+    "infecção oportunista": {
+        "en": "opportunistic infection",
+        "es": "infección oportunista"
+    },
+    "colonoscopia": {
+        "en": "colonoscopy",
+        "es": "colonoscopia"
+    },
+    "esofagite": {
+        "en": "esophagitis",
+        "es": "esofagitis"
+    },
+    "fezes": {
+        "en": "stool",
+        "es": "materia fecal, excremento"
+    },
+    "úlcera": {
+        "en": "ulcer",
+        "es": "úlcera"
+    },
+    "doador": {
+        "en": "donor",
+        "es": "donante"
+    },
+    "cirurgião": {
+        "en": "surgeon",
+        "es": "cirujano"
+    },
+    "aborto": {
+        "en": "abortion",
+        "es": "aborto"
+    },
+    "gestação": {
+        "en": "gestation",
+        "es": "gestación"
+    },
+    "hemoglobinopatia": {
+        "en": "hemoglobinopathy",
+        "es": "hemoglobinopatía"
+    },
+    "hemofilia": {
+        "en": "hemophilia",
+        "es": "hemofilia"
+    },
+    "mutação": {
+        "en": "mutation",
+        "es": "mutación"
+    },
+    "anemia de célula falciforme": {
+        "en": "sickle-cell anemia",
+        "es": "anemia de glóbulos falciformes"
+    },
+    "demência": {
+        "en": "dementia",
+        "es": "demencia"
+    },
+    "letargia": {
+        "en": "lethargy",
+        "es": "letargia"
+    },
+    "psicose": {
+        "en": "psychosis",
+        "es": "psicosis"
+    },
+    "meningite": {
+        "en": "meningitis",
+        "es": "meningitis"
+    },
+    "nutrição": {
+        "en": "nutrition",
+        "es": "nutrición"
+    },
+    "cesariana": {
+        "en": "cesarean section",
+        "es": "operación cesárea"
+    },
+    "parto": {
+        "en": "childbirth",
+        "es": "nacimiento de un niño/a"
+    },
+    "gravidez ectópica": {
+        "en": "ectopic pregnancy",
+        "es": "embarazo ectópico"
+    },
+    "feto": {
+        "en": "fetus",
+        "es": "feto"
+    },
+    "ginecologista": {
+        "en": "gynecologist",
+        "es": "ginecólogo/a"
+    },
+    "leucorreia": {
+        "en": "leukorrhea",
+        "es": "leucorrea"
+    },
+    "maternidade": {
+        "en": "maternity ward",
+        "es": "sala de maternidad"
+    },
+    "placenta": {
+        "en": "placenta",
+        "es": "placenta"
+    },
+    "vaginite": {
+        "en": "vaginitis",
+        "es": "vaginitis"
+    },
+    "tratamento alternativo": {
+        "en": "alternative therapy",
+        "es": "terapia alternativa"
+    },
+    "carcinoma": {
+        "en": "carcinoma",
+        "es": "carcinoma"
+    },
+    "quimioterapia": {
+        "en": "chemotherapy",
+        "es": "quimioterapia"
+    },
+    "mastectomia": {
+        "en": "mastectomy",
+        "es": "mastectomía"
+    },
+    "mastectomia radical": {
+        "en": "radical mastectomy",
+        "es": "mastectomía radical"
+    },
+    "neoplasia": {
+        "en": "neoplasia",
+        "es": "neoplasia"
+    },
+    "tumor": {
+        "en": "tumor",
+        "es": "tumor"
+    },
+    "catarata": {
+        "en": "cataract",
+        "es": "catarata"
+    },
+    "retinopatia": {
+        "en": "retinopathy",
+        "es": "retinopatía"
+    },
+    "pediatria": {
+        "en": "pediatrics",
+        "es": "pediatría"
+    },
+    "cólica": {
+        "en": "colic",
+        "es": "cólico"
+    },
+    "epiglotite": {
+        "en": "epiglottitis",
+        "es": "epiglotitis"
+    },
+    "papeira": {
+        "en": "mumps",
+        "es": "paperas"
+    },
+    "pertussis": {
+        "en": "pertussis",
+        "es": "pertussis, tos ferina"
+    },
+    "rubéola": {
+        "en": "rubella",
+        "es": "rubeóla"
+    },
+    "vacinar": {
+        "en": "vaccinate",
+        "es": "vacunar"
+    },
+    "vacinação": {
+        "en": "vaccination",
+        "es": "vacunación"
+    },
+    "tuberculose pulmonar": {
+        "en": "pulmonary tuberculosis",
+        "es": "tuberculosis pulmonar"
+    },
+    "radiologia": {
+        "en": "radiology",
+        "es": "radiología"
+    },
+    "radiografia": {
+        "en": "radiography",
+        "es": "radiografía"
+    },
+    "artrite reumatóide": {
+        "en": "rheumatoid arthritis",
+        "es": "arthritis reumatoide(a)"
+    }
+}
