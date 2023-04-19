@@ -1,0 +1,35 @@
+{% extends 'layout.html' %} {% block linksnavbar %}
+
+<a class="nav-link" aria-current="page" href="/">Home</a>
+<a class="nav-link active border border-left-light" href="/terms"
+  >Medical Terms</a
+>
+<a class="nav-link" href="/terms/search">Search</a>
+
+{% endblock %} {% block search %}
+<form class="form-inline">
+  <input
+    class="form-control mr-sm-2"
+    id="searchInp"
+    onkeyup="mySearch()"
+    type="search"
+    placeholder="Search"
+    aria-label="Search"
+  />
+</form>
+
+{% endblock %} {% block body %}
+
+<div class="container">
+  <div class="list-group my-5">
+    {% for d in designations %}
+    <a
+      href="/term/{{d}}"
+      class="designations list-group-item list-group-item-action"
+      >{{d}}</a
+    >
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock %}
