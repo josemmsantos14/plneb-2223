@@ -73,9 +73,9 @@ text = re.sub(r'(<.*>)\n(<.*>)\n+<.*>', r'\n', text)
 
 entries = re.findall(r'\n\n(.+)\n(.*)', text)
 
-# ola = open("alterado.xml", "w" ,encoding="UTF-8")
-# ola.write(text)
-# ola.close()
+ola = open("alterado.xml", "w" ,encoding="UTF-8")
+ola.write(text)
+ola.close()
 
 dici = {}
 
