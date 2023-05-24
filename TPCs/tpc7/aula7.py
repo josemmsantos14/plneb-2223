@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 import json
 
 app = Flask(__name__)
@@ -9,10 +9,6 @@ db = json.load(file)
 @app.route("/")
 def home():
     return render_template("welcome.html", title="Welcome!")
-
-@app.route("/creditos")
-def creditos():
-    return "<p>Créditos<p>"
 
 @app.route("/dicionario")
 def dicionario_medico():
