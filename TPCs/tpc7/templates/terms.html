@@ -18,16 +18,22 @@
   />
 </form>
 
-{% endblock %} {% block body %}
+{% endblock %} {% block body %} {%if message%} {{message}} {% endif %}
+
+<!-- Tabela com os termos -->
 
 <div class="container">
   <div class="list-group my-5">
     {% for d in designations %}
-    <a
-      href="/term/{{d}}"
-      class="designations list-group-item list-group-item-action"
-      >{{d}}</a
+    <div
+      class="designation d-flex justify-content-between align-items-center list-group-item"
     >
+      <a
+        href="/term/{{d}}"
+        class="list-group-item list-group-item-action mx-auto"
+        >{{d}}</a
+      >
+    </div>
     {% endfor %}
   </div>
 </div>
