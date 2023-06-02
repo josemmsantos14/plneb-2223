@@ -1,0 +1,39 @@
+{% extends 'layout.html' %} {% block body %}
+
+<div class="search-main">
+  <div class="search-container">
+    <form action="/terms/search" method="GET">
+      <h3 class="search-title">Search <i class="material-icons">search</i></h3>
+      <p>
+        <input
+          type="text"
+          class="search-inp"
+          name="search"
+          placeholder="Search..."
+        />
+      </p>
+      <button type="submit" class="search-btn btn btn-secondary">Search</button>
+    </form>
+  </div>
+
+  <div class="results-container container list-group">
+    {% if matched | length == 0 %}
+    <p class="search-no-results">No results found.</p>
+    {% else %}
+    <ul>
+      {% for disease in matched %}
+      <li class="search-row">
+        <b>
+          <a
+            href="/term/{{disease}}"
+            class="term-link list-group-item list-group-item-light btn-outline-secondary"
+            >{{disease}}</a
+          >
+        </b>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

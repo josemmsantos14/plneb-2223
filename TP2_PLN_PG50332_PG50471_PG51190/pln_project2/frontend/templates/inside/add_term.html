@@ -1,0 +1,56 @@
+{% extends 'layout.html' %} {% block body %}
+
+<!-- Adição de novos termos  -->
+<div class="add-main">
+  <div class="add-container">
+    <h3>Add Term</h3>
+
+    <form action="/addterm" method="POST" enctype="multipart/form-data">
+      <div class="mb-3">
+        <!-- <label class="form-label">Designation:</label> -->
+        <select name="areas" id="areas" required>
+          {% for area in areas %} {% if area == "Todas as Grandes Áreas" %} {%
+          else %}
+          <option value="{{area}}">{{area}}</option>
+          {% endif %} {% endfor %}
+        </select>
+        <!-- <input type="text" name="designation" placeholder="Disease" required /> -->
+      </div>
+      <div class="mb-3">
+        <!-- <label class="form-label">Designation:</label> -->
+        <input type="text" name="designation" placeholder="Disease" required />
+      </div>
+      <div class="mb-3">
+        <!-- <label class="form-label">Term in English:</label> -->
+        <input
+          type="text"
+          name="en"
+          placeholder="English Translation"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <!-- <label class="form-label">Term in Spanish:</label> -->
+        <input
+          type="text"
+          name="es"
+          placeholder="Spanish Translation"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <!-- <label class="form-label">Portuguese Description:</label> -->
+        <textarea
+          type="text"
+          name="description"
+          placeholder="Portuguese Description"
+          required
+        ></textarea>
+      </div>
+      <button type="submit" class="add-btn btn btn-primary">Add</button>
+    </form>
+
+    {% if message %} {{message}} {% endif %}
+  </div>
+</div>
+{% endblock %}
