@@ -1,0 +1,37 @@
+{% extends 'layout.html' %} 
+
+{% block body %}
+
+<div class="term-container">
+  <h3 class="term-title rounded">{{designation}}</h3>
+  {% for key, value in values %}
+  <p>
+    <p class="info-btn btn btn-outline-secondary">
+      {{key}}
+    </p>
+    <div>
+      <div class="info card card-body">{{value}}</div>
+    </div>
+  </p>
+  {% endfor %}
+  <div class="languages">
+    <a
+      class="lan-btn btn btn-outline-secondary"
+      type="button"
+      href="/term/en/{{designation}}"
+    >
+      EN
+      <span class="lan-flag-en fi fi-gb"></span>
+    </a>
+    <a
+      class="lan-btn btn btn-outline-secondary"
+      type="button"
+      href="/term/es/{{designation}}"
+    >
+      ES
+      <span class="lan-flag-es fi fi-es"></span>
+    </a>
+</div>
+</div>
+
+{% endblock %}
